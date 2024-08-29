@@ -1,0 +1,98 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+.navbar {
+    /* background-color: #333; */
+    overflow: hidden;
+    padding-left: 550px;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content:end; /* Align items to the left */
+}
+
+.nav-item {
+    padding: 14px 20px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.nav-item a:hover {
+    background-color: #ddd;
+    color: black;
+}
+.color{
+    background-color: rgba(22, 89, 107, 0.915);
+    border-bottom-left-radius: 150px;
+
+}
+
+.btnn{
+    background-color:rgba(249, 13, 13, 0.755);
+    width: 200px;
+    height: 50px;
+    font-size: 17px;
+    border-radius: 10px;
+    border: 1px solid white;
+  
+}
+p{
+     color: rgba(10, 81, 101, 0.874);
+     padding: 30px;
+     font-size:16px;
+}
+.ro{
+    height: 740px;
+}
+
+.main {
+    position: relative;
+    width: 100%;
+    height: 450px; /* Adjust height as needed */
+    /* background-color: #f0f0f0; Background color to visualize the main div */
+}
+
+.main img {
+    position: absolute;
+    top: 70%;  /* Adjust to position vertically */
+    left: 50%; /* Adjust to position horizontally */
+    transform: translate(-85%, -50%); /* Center the image */
+    width: auto; /* Maintain the aspect ratio */
+    height: auto; /* Maintain the aspect ratio */
+    max-width: 100%; /* Responsive design */
+    max-height: 100%; /* Responsive design */
+    border-radius: 10px;
+}
+
+.call {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    /* height: 100vh;  */
+    text-align: center; /* Center text alignment */
+    background-color: #f8f8f8; /* Background color to visualize the container */
+    padding: 20px; /* Padding for better text readability */
+}
+.re{
+    padding: 150px;
+}
+.icon{
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    padding-left: 50px;
+}
+
